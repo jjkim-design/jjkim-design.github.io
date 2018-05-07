@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 0.5em 0 0.5em;
 }
 
+h3 {
+	line-height: 0.5;
+}
+
 p.funny_foot_note {
 	font-size: 0.8em;
 }
@@ -40,7 +44,7 @@ header {
 	position: center;
 	text-align: center;
 	box-shadow: 2.5px 5px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 nav {
@@ -58,7 +62,7 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 	box-shadow: 2.5px 5px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 nav a {
@@ -72,7 +76,7 @@ nav a {
 	border-right: 0.1em solid black;
 	flex-grow: 1;
 	box-shadow: 1px 2px;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 
 nav a.about {
@@ -88,8 +92,8 @@ nav a.home {
 }
 
 nav a.active {
-	border: 0.05em solid red;
-	color: red;
+	border: 0.05em solid blue;
+	color: blue;
 }
 
 nav a:hover {
@@ -108,7 +112,7 @@ main {
 	width: 75%;
 	height: 50%;
 	box-shadow: 2.5px 5px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 section {
@@ -121,7 +125,7 @@ section {
 	width: 75%;
 	height: 50%;
 	box-shadow: 2.5px 5px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 figure {
@@ -135,7 +139,7 @@ figure {
 	width: 75%;
 	height: 50%;
 	box-shadow: 2.5px 5px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 img.meme {
@@ -147,7 +151,7 @@ img.meme {
 	border: 0.2em solid black;
 	background: black;
 	box-shadow: 2px 5px blue;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 
 img.profile {
@@ -159,7 +163,7 @@ img.profile {
 	border: 0.2em solid black;
 	background: black;
 	box-shadow: 2px 5px blue;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 
 figcaption {
@@ -179,5 +183,5 @@ footer {
 	width: 75%;
 	height: 50%;
 	box-shadow: 2.5px 5px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
