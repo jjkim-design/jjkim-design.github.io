@@ -29,7 +29,7 @@ a.page {
 }
 
 header {
-	padding: 0.2em;
+	padding: 0.5em 1em 0.5em 1em;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +44,7 @@ header {
 }
 
 nav {
-	padding: 0.2em;
+	padding: 0.5em 1em 0.5em 1em;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 main {
-	padding: 0.2em;
+	padding: 0.5em 1em 0.25em 1em;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -117,7 +117,7 @@ main {
 }
 
 section {
-	padding: 0.2em;
+	padding: 0.5em 1em 0.25em 1em;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -131,7 +131,7 @@ section {
 
 figure {
 	display: block;
-	padding: 0.2em;
+	padding: 0.5em 1em 0.5em 1em;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -143,7 +143,7 @@ figure {
 	/*border-radius: 10px;*/
 }
 
-img.meme {
+img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -155,7 +155,7 @@ img.meme {
 	/*border-radius: 5px;*/
 }
 
-img.profile {
+/*img.profile {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -165,7 +165,7 @@ img.profile {
 	background: black;
 	box-shadow: 2px 5px blue;
 	/*border-radius: 5px;*/
-}
+}*/
 
 figcaption {
 	/*font-style: italic;
@@ -186,7 +186,7 @@ figcaption {
 }
 
 footer {
-	padding: 0.2em;
+	padding: 0.5em 1em 0.25em 1em;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
