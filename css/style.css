@@ -72,7 +72,9 @@ nav a {
 	border-right: 0.1em solid black;
 	flex-grow: 1;
 	box-shadow: 1px 2px;
-	/*border-radius: 5px;*/
+	/*border-radius: 5px;
+	background-clip: content-box;
+	box-shadow: inset 0 0.1em black;*/
 }
 
 nav a.about {
@@ -96,6 +98,8 @@ nav a:hover {
 	border: 0.05em solid blue;
 	color: blue;
 	box-shadow: none;
+	/*background-clip: content-box;
+	box-shadow: inset 0.1em 0.1em black;*/
 }
 
 main {
@@ -109,6 +113,7 @@ main {
 	height: 50%;
 	box-shadow: 2.5px 5px;
 	/*border-radius: 10px;*/
+	text-align: center;
 }
 
 section {
@@ -163,10 +168,21 @@ img.profile {
 }
 
 figcaption {
-	font-style: italic;
-	font-weight: bold;
+	/*font-style: italic;
+	font-weight: bold;*/
 	position: center;
 	text-align: center;
+}
+
+#joinButton:hover {
+	border: 0.05em solid blue;
+	color: blue;
+	box-shadow: none;
+}
+
+#joinLink {
+	text-decoration: none;
+	color: black;
 }
 
 footer {
@@ -181,3 +197,39 @@ footer {
 	box-shadow: 2.5px 5px;
 	/*border-radius: 10px;*/
 }
+
+
+::-webkit-scrollbar {
+	width: 0.85em;
+}
+
+::-webkit-scrollbar-track:vertical {
+	/*box-shadow: inset 0 0 1px black;*/
+}
+
+::-webkit-scrollbar-track:decrement {
+	background: blue;
+}
+
+::-webkit-scrollbar-thumb {
+	background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: blue;
+}
+
+#joinButton {
+	padding: 0.2em;
+	margin: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	border: 0.05em solid black;
+	/*border-right: 0.1em solid black;*/
+	width: 75%;
+	height: 50%;
+	box-shadow: 1px 2px;
+}
+
+overflow-x: hidden;
