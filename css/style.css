@@ -41,7 +41,10 @@ header {
 
 img {
 	vertical-align: middle;
+	width: 100%;
+	display: block;
 }
+
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
