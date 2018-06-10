@@ -40,14 +40,26 @@ p {
 
 .articles {
 	margin-top: 2em;
+	padding: 1em;
 	width: 20em;
 	height: 27em;
 	border: 0.2em double #e9737f;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+a.content:link {
+	color: #e9737f;
+}
+
+a.content:visited {
+	color: #e83e4f;
 }
 
 .controllers {
 	margin-right: 3em;
 }
+
 
 .lowerBar {
 	display: inline block;
@@ -125,6 +137,7 @@ img.bust {
 	padding: 1em;
 	border: 0.2em double #e9737f;
 	line-height: 1.5em;
+	text-align: justify;
 }
 
 .contact {
@@ -134,16 +147,22 @@ img.bust {
 	padding: 1em;
 	border: 0.2em double #e9737f;
 	line-height: 1.5em;
+	text-align: justify;
+}
+
+.linkBox {
+	margin-bottom: 11em;
 }
 
 .links {
 	margin: 2em;
-	margin-bottom: 8em;
+	margin-right: 12em;
+	margin-left: 12em;
 	padding: 2em;
-	padding-left: 10em;
-	padding-right: 10em;
+	padding-bottom: 1em;
 	line-height: 1.5em;
 	text-align: justify;
+	border: 0.2em double #e9737f;
 }
 
 .title {
